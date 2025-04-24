@@ -1,4 +1,4 @@
-"""Module for handling document embeddings and vector storage.from_rag_to_riches"""
+"""Module for handling document embeddings and vector storage."""
 
 import os
 from langchain_openai import OpenAIEmbeddings
