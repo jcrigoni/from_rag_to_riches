@@ -42,8 +42,8 @@ def create_demo():
     """
     demo = gr.ChatInterface(
         chat,
-        title="Chatbot RAG sur base documentaire",
-        description="Posez des questions sur la base de documents markdown"
+        title="Chatbot RAG based on documents",
+        description="Ask questions based on markdown documents"
     )
     return demo
 
