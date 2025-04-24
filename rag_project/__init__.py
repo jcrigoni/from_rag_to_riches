@@ -1,3 +1,3 @@
-"""RAG (Retrieval Augmented Generation) system using LangGraph.from_rag_to_riches"""
+"""RAG (Retrieval Augmented Generation) system using LangGraph."""
 
 __version__ = "0.1.0"
