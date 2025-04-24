@@ -2,7 +2,7 @@
 import os
 
 # OpenAI API key
-OPENAI_API_KEY = os.getenv("MY_OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Vector database settings
 VECTORSTORE_DIR = "vectorstore"
