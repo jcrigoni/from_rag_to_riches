@@ -21,6 +21,7 @@ pydantic = "*"
 tqdm = "*"
 langgraph = "*"
 unstructured = {extras = ["md"], version = "*"}
+rag-project = {file = ".", editable = true}
 
 [dev-packages]
 
