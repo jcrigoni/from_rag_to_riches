@@ -38,7 +38,7 @@ def rewrite_text(text, model="gpt-4.1-nano", temperature=0.7, max_tokens=3000):
     client = OpenAI(api_key=settings.OPENAI_API_KEY)
     
     prompt = f"""
-    Tu es un rédacteur web SEO. Réécris le texte ci-dessous avec une formulation différente, tout en gardant les mots-clés importants (comme nutrition, compléments alimentaires, vitamines, performance, musculation, etc.). Supprime les contenus promotionnels, les liens, les mentions légales ou cookies. Le texte doit rester informatif, clair, et unique.
+    You are an SEO web writer. Rewrite the text below using different wording while keeping important keywords. Remove any promotional content, links, legal notices, or cookie information. The final text should remain informative, clear, and unique.
     
     Texte :
     \"\"\"
