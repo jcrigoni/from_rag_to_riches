@@ -1,4 +1,4 @@
-"""Command-line interface for the RAG application. from_rag_to_riches"""
+"""Command-line interface for the RAG application."""
 
 import argparse
 import sys
