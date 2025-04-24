@@ -1,4 +1,4 @@
-"""Gradio web interface for the RAG application.from_rag_to_riches"""
+"""Gradio web interface for the RAG application."""
 
 import gradio as gr
 from langchain_core.messages import HumanMessage, AIMessage
