@@ -16,7 +16,7 @@ LLM_TEMPERATURE = 0.2
 LLM_MAX_TOKENS = 3000
 
 # Retriever settings
-DEFAULT_TOP_K = 5
+DEFAULT_TOP_K = 8 # default 5, then try 8
 
 # Data directories
 INPUT_DATA_DIR = "data/input_data"  # Raw markdown files
