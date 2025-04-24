@@ -6,7 +6,7 @@ setup(
     name="rag_project",
     version="0.1.0",
     description="RAG (Retrieval Augmented Generation) system using LangGraph",
-    author="Your Name",
+    author="JCR",
     packages=find_packages(),
     install_requires=[
         "langchain",
