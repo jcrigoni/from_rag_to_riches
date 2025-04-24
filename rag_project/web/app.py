@@ -50,7 +50,7 @@ def create_demo():
 def launch_app():
     """Launch the Gradio app."""
     demo = create_demo()
-    demo.launch()
+    demo.launch(share=True)
 
 if __name__ == "__main__":
     launch_app()
