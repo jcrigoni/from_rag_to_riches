@@ -1,6 +1,6 @@
 # RAG Project
 
-A Retrieval Augmented Generation (RAG) system using LangGraph, OpenAI and Gradio. from_rag_to_riches
+A Retrieval Augmented Generation (RAG) system using LangGraph, OpenAI and Gradio.
 
 ## Features
 
