@@ -1,4 +1,4 @@
-"""Module for retrieving relevant documents.from_rag_to_riches"""
+"""Module for retrieving relevant documents."""
 
 from typing import List
 from langchain.schema import Document
