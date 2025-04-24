@@ -1,0 +1,61 @@
+# Données et vectorstore
+data/
+vectorstore/
+
+# Modèles téléchargés
+models/
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# Environnement virtuel
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Fichiers Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+*.ipynb
+
+# Fichiers de distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Fichiers spécifiques à ton application
+rag_metrics.jsonl
+*_cache/
+.chroma/
+
+# Clés API et secrets
+.env
+secrets.json
+config.py
+

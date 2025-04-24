@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+langchain = "*"
+langchain-core = "*"
+langchain-community = "*"
+chromadb = "*"
+sentence-transformers = "*"
+transformers = "*"
+torch = "*"
+langchain-openai = "*"
+langchain-huggingface = "*"
+python-frontmatter = "*"
+gradio = "*"
+numpy = "*"
+pydantic = "*"
+tqdm = "*"
+langgraph = "*"
+unstructured = {extras = ["md"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
