@@ -33,7 +33,7 @@ def print_custom_help():
     Process and clean text files, optionally rewriting them with OpenAI.
     
     Example:
-      rag process --input-dir data/input_data --output-dir data/processed_data
+      ./rag process --input-dir data/input_data --output-dir data/processed_data
       
     Options:
       --input-dir   : Directory with markdown files (default: {})
@@ -47,7 +47,7 @@ def print_custom_help():
     Process documents and create a vector database for RAG.
     
     Example:
-      rag ingest --input-dir data/input_data --chunk-size 500 --chunk-overlap 100
+      ./rag ingest --input-dir data/input_data --chunk-size 500 --chunk-overlap 100
       
     Options:
       --input-dir     : Directory with markdown files (default: {})
@@ -61,7 +61,7 @@ def print_custom_help():
     Launch the Gradio web interface to interact with the RAG system.
     
     Example:
-      rag web
+      ./rag web
     """.format(
         settings.INPUT_DATA_DIR,
         settings.PROCESSED_DATA_DIR,
