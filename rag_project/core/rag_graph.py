@@ -1,4 +1,4 @@
-"""Module for LangGraph-based RAG implementation. from_rag_to_riches"""
+"""Module for LangGraph-based RAG implementation. """
 
 from typing import TypedDict, Annotated, List, Union
 from langchain_core.messages import HumanMessage, AIMessage
