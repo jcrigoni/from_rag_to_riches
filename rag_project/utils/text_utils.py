@@ -1,4 +1,4 @@
-"""Utility functions for text cleaning and rewriting.from_rag_to_riches"""
+"""Utility functions for text cleaning and rewriting."""
 
 import re
 from openai import OpenAI
