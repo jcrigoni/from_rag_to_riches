@@ -95,7 +95,7 @@ rag_project/
 │   ├── embeddings.py
 │   ├── retriever.py
 │   └── rag_graph.py
-├── data/
+├── data_processing/
 │   ├── __init__.py
 │   ├── ingest.py
 │   └── processors.py
